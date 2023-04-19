@@ -40,4 +40,4 @@ if __name__ == '__main__':
     col1.pyplot(fig1)
     col2.pyplot(fig2)
 
-    st.dataframe(df)
+    st.dataframe(df.loc[0:100])
